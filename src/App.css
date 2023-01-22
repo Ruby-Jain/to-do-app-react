@@ -1,38 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.deleteicon {
+    left: 160px;
+    position: relative;
+    background-color: purple;
+    color: white;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    min-width: 60px;
+    min-height: 40px;
+}
+
+.clearall {
+
+    background-color: purple;
+    color: white;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 1rem;
+    min-width: 10px;
+    padding: 0.7rem;
+    min-height: 50px;
+}
+
+
+.editicon {
+    left: 155px;
+    position: relative;
+    background-color: purple;
+    color: white;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    min-width: 60px;
+    min-height: 40px;
+}
+.reset{
+    padding: 0.5rem;
+    bottom:4px;
+    position: relative;
+    background-color: purple;
+    color: white;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-width: 60px;
+    min-height: 40px;
+}
+.editicon:hover{
+    background-color: rgba(132, 206, 21, 0.872);
+    color: black;
+}
+
+.heading {
+    font-weight: bold;
+    background-color: rgb(149, 11, 254);
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    width: 100%;
+    padding: 1.5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 .App {
-  text-align: center;
+    background-color: #f1bcf8;
+    text-align: center;
+    align-items: center;
+    color: black;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center-div {
+    background-image: linear-gradient(rgb(136, 0, 255), rgb(232, 178, 251), rgb(160, 21, 185));
+    padding: 9%;
+    top: 12%;
+    border-radius: 20%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    left: 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div>.addicon {
+    background-color: purple;
+    color: white;
+    border-radius: 20%;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    min-width: 60px;
+    min-height: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addicon:hover {
+    background-color: rgba(132, 206, 21, 0.872);
+    color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.deleteicon:hover {
+    background-color: rgba(132, 206, 21, 0.872);
+    color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addicon:hover {
+    background-color: rgba(132, 206, 21, 0.872);
+    color: black;
+}
+
+div>input {
+    letter-spacing: 1.5px;
+    padding: 6%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    width: 300px;
+    height: 30px;
+}
+
+div>input:hover {
+    background-color: rgb(251, 255, 136);
+}
+
+div>ol {
+    font-size: 1.5rem;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    letter-spacing: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
